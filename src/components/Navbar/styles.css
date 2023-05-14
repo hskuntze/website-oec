@@ -1,0 +1,24 @@
+#main-menu-navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  max-width: 100vw;
+  max-height: 10vh;
+  height: 10vh;
+}
+
+.navbar-links {
+  font-size: 1.25vw;
+  font-weight: 400;
+  margin-right: 10vw;
+}
+
+.navbar-link {
+  margin: 0 2vw;
+}
+
+.navbar-link:hover {
+  margin: 0 2vw;
+  text-decoration: underline;
+}

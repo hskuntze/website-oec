@@ -1,0 +1,26 @@
+#footer {
+  max-width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+}
+
+#footer-content {
+  width: 90vw;
+  border-top: 2px solid #012840;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link {
+  width: 10vw;
+  text-align: center;
+  font-size: 1.25em;
+  transition: width 0.4s, color 0.4s;
+}
+
+.footer-link:hover {
+  width: 10.5vw;
+  color: #608BA6;
+}
